@@ -1,0 +1,5 @@
+CREATE TABLE summaries (
+    summary_id SERIAL PRIMARY KEY,
+    summary TEXT NOT NULL,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
+);

@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 0, 0, 0.8); /* Ensures full red background */
+}
+
+.div-main-page {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.div-title {
+  color: white;
+}
+
+.div-record {
+  margin: 0;
+  margin-left: 50%;
+}
+
+.button-record {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.ul-symptom-list {
+  border: solid white;
+  color: white;
+  list-style-type: none;
+}
+
+.p-date {
+  margin-top: 0;
+  color: rgb(0, 0, 0);
+  font-size: small;
+  padding-left: 20px;
+}
